@@ -1,0 +1,33 @@
+.info-left {
+    z-index: 20;
+    background: var(--left-color);
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    transition: .5s;
+}
+
+.info-left:hover {
+    background: var(--hover-color);
+    cursor: pointer;
+}
+
+.local-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.local-info span {
+    font-size: 0.9rem;
+}
+
+#day {
+    font-size: 1.5rem;
+}
+
+.temperature h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+}

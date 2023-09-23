@@ -3,13 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Weather App || Adriel Correia</title>
     <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/today.css">
+    <link rel="stylesheet" href="/style/forecast.css">
+    <link rel="stylesheet" href="/style/media_queries.css">
     <script src="/js/script.js" defer></script>
 </head>
 <body>
-    <main>
+    <div id="theme"></div>
 
+    <main>
+        <div class="weather-app">
+            <div class="info-left">
+                <div class="local-info">
+                    <h1 id="day">Friday</h1>
+                    <span id="dmy">31 Feb 2050</span> <!--dmy = day month year-->
+                    <span class="location">Paris, FR</span>
+                </div>
+
+                <div class="temperature">
+                    <h1 class="weather-temp">0° C</h1>
+                    <span class="weather-desc">Indefinido</span>
+                </div>
+            </div>
+
+            <div class="info-right">
+                <div class="info">
+                    <div class="infos">
+                        <h2>PRECIPITAÇÃO:</h2>
+                        <span id="precipitation" >0%</span>
+                    </div>
+
+                    <div class="infos">
+                        <h2>UMIDADE:</h2>
+                        <span id="humidity" >0%</span>
+                    </div>
+
+                    <div class="infos">
+                        <h2>VEL / VENTO:</h2>
+                        <span id="wind-speed" >0 km/h</span>
+                    </div>
+                </div>
+
+                <div class="loader"></div>
+                <div class="error">Ocorreu um erro, tente novamente.</div>
+
+                <div class="days">
+                    <ul class="days-list">
+                    </ul>
+                </div>
+
+                <div class="search-box">
+                    <img src="./assets/search-btn.svg" draggable="false">
+                    <input type="text" placeholder="Pesquisar" class="search"></span>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
