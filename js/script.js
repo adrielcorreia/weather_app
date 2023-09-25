@@ -18,11 +18,11 @@ error.style.display = 'none';
 theme.addEventListener('click', () => {
     if (light_mode == false) {
         light_mode = true;
-        theme.style.backgroundImage = 'url(./assets/dark-mode.svg)';
+        theme.style.backgroundImage = 'url(../assets/dark-mode.svg)';
         document.body.classList.add('light-theme');
     } else {
         light_mode = false
-        theme.style.backgroundImage = 'url(./assets/light-mode.svg)';
+        theme.style.backgroundImage = 'url(../assets/light-mode.svg)';
         document.body.classList.remove('light-theme');
     }
     console.log(light_mode);
