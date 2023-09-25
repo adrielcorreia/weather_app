@@ -16,7 +16,7 @@
 }
 
 .light-theme {
-    --bg-color: radial-gradient(circle, rgba(106,214,245,1) 0%, rgba(54,117,136,1) 75%);
+    --bg-color: radial-gradient(circle, rgba(105,214,245,1) 0%, rgba(54,117,136,1) 75%);
     --left-color: rgb(55, 114, 130); 
     --right-color: #1b4d5b;
     --main-text-color: white;
