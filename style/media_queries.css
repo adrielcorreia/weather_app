@@ -86,3 +86,21 @@
         justify-self: center;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    main {
+        transform: scale(0.9);
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    main {
+        transform: scale(0.9);
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    main {
+        transform: scale(0.78);
+    }
+}
