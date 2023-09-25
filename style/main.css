@@ -8,7 +8,7 @@
 }
 
 :root {
-    --bg-color: radial-gradient(circle, #00181f 0%, #000d11 75%);;
+    --bg-color: radial-gradient(circle, #00181f 0%, #000d11 75%);
     --left-color: #002a36;
     --right-color: #00222b;
     --main-text-color: #80959b;
