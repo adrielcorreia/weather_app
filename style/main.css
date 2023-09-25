@@ -39,7 +39,7 @@ body {
 }
 
 #theme {
-    background-image: url("./assets/light-mode.svg");
+    background-image: url("../assets/light-mode.svg");
     background-position: center;
     background-size: cover;
     object-fit: cover;
